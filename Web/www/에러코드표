@@ -1,0 +1,20 @@
+HOMEUSER -> input = boxID / print HomeUser : checkBoxHomeUser.php
+Driver -> input = boxID / print Driver : checkBoxDriver.php
+
+input = usercode / getusername.php
+
+
+new LOGDATA("CLE00","user님이 택배를 정상적으로 수령하였습니다.", CODETYPE.NORMAL),
+            new LOGDATA("CLE01", "택배기사 user님이 택배를 배달하였습니다", CODETYPE.NORMAL),
+            new LOGDATA("CLE02", "택배기사 user님이 또다른 택배를 배달하였습니다", CODETYPE.NORMAL),
+            new LOGDATA("HOM00", "사용자 user가 문을 열었습니다.", CODETYPE.NORMAL),
+            new LOGDATA("HOM01", "사용자 user가 문을 닫았습니다.", CODETYPE.NORMAL),
+            new LOGDATA("POS00", "택배기사 user가 문을 열었습니다.", CODETYPE.NORMAL),
+            new LOGDATA("POS01", "택배기사 user가 문을 닫았습니다.", CODETYPE.NORMAL),
+
+            new LOGDATA("ERR002", "택배가 사라졌습니다. 최근 이용자 : user",CODETYPE.ERROR),
+            new LOGDATA("ERR009", "user를 식별 할 수 없습니다.",CODETYPE.ERROR),
+
+            new LOGDATA("POS03", "택배기사 user가 문을 연지 3분이 지나 자동으로 닫힙니다.",CODETYPE.WARNING) };
+			new LOGDATA("ERR001", "택배가 남아있습니다. 최근 이용자 : user",CODETYPE.WARNING),
+			new LOGDATA("HOM03", "사용자 user가 문을 연지 3분이 지나 자동으로 닫힙니다.",CODETYPE.WARNING),
