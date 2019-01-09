@@ -1,2 +1,4 @@
-# java_project_hermes_2018
-Study, Java, Project
+# 2018년 5~6월 자바 프로젝트
+본 프로그램은 택배 보관함 및 서버를 구현한 파일입니다.
+<br><br>
+일부 파일이 없을수 있습니다.
